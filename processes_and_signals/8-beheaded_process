@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Forcefully terminate the Highlander process.
+pkill -KILL -f '[7]-highlander'
