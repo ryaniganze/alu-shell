@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Send SIGTERM to the Highlander process.
+pkill -TERM -f '[7]-highlander'
