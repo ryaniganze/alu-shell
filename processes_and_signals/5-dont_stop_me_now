@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Stop the running task 4 process using kill.
+process_id=$(pgrep -f '[4]-to_infinity_and_beyond')
+
+if [ -n "$process_id" ]; then
+    kill "$process_id"
+fi
